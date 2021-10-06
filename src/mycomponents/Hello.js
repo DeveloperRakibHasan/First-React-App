@@ -1,8 +1,17 @@
 import React from 'react'
 
 function Hello(props){
+
+    function DoThis(){
+        alert("Button is clicked")
+    }
+
     return(
-        <h1>My name is {props.name} & Age: {props.age} </h1>
+        
+        <div>
+            <button onClick={DoThis}>Click me</button>
+            <h1>My name is {props.name} & Age: {props.age} </h1>
+        </div>
         
        
     )

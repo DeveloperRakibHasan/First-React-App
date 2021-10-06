@@ -9,14 +9,8 @@ function App() {
       <header className="App-header">
       
         <Hello name='Rakib' age='21'></Hello>
-        <Hello name='Refat' age='55'></Hello>
-        <Hello name='Rahul' age='5'></Hello>
-        <Hello name='Rohim' age='58'></Hello>
-
-        <Welcome  name='Rakib 1' ></Welcome>
-        <Welcome  name='Rakib 2'></Welcome>
-        <Welcome  name='Rakib 3'></Welcome>
-       
+        <Welcome  name='Rakib 1' age="54" ></Welcome>
+   
       </header>
     </div>
   );
